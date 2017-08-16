@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <EditTextPreference
+        android:defaultValue="10"
+        android:key="numSegs"
+        android:persistent="true"
+        android:selectAllOnFocus="true"
+        android:singleLine="true"
+        android:title="# of snake segments (5-15)" />
+    <EditTextPreference
+        android:defaultValue="15"
+        android:key="numRocks"
+        android:persistent="true"
+        android:selectAllOnFocus="true"
+        android:singleLine="true"
+        android:title="# of rocks (5-25)" />
+    <EditTextPreference
+        android:defaultValue="3"
+        android:key="numLives"
+        android:persistent="true"
+        android:selectAllOnFocus="true"
+        android:singleLine="true"
+        android:title="# of lives (1-3)" />
+</PreferenceScreen>
